@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "pack.description",
+    "name": "pack.name",
+    "uuid": "52e11ed1-c6a0-4cb6-8e98-5f7f8d7abd18",
+    "min_engine_version": [ 1, 21, 50 ],
+    "version": [ 1, 2, 0 ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "3f513fac-296f-4def-be70-66a92a0c9c3b",
+      "version": [ 1, 0, 0 ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "d90c033f-8ea4-45c5-8d14-e5af4b83100c",
+      "entry": "scripts/main.js",
+      "version": [ 1, 0, 0 ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.16.0"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "JustAsh01"
+    ],
+    "license": "MIT",
+    "url": "https://github.com/Justash01/block-patterns",
+    "product_type": "addon"
+  }
+}

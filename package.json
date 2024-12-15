@@ -1,0 +1,6 @@
+{
+  "name": "block-patterns",
+  "dependencies": {
+    "@minecraft/server": "^1.16.0"
+  }
+}
